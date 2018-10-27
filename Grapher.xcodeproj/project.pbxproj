@@ -13,6 +13,11 @@
 		CE4F04FB218468AF00064FB2 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F04FA218468AF00064FB2 /* Environment.swift */; };
 		CE4F04FE21846A8B00064FB2 /* GraphClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F04FD21846A8B00064FB2 /* GraphClient.swift */; };
 		CE4F050021846B8900064FB2 /* GraphCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F04FF21846B8900064FB2 /* GraphCodec.swift */; };
+		CE4F05032184AC9200064FB2 /* MainViewRepositoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F05012184AC9200064FB2 /* MainViewRepositoryCell.swift */; };
+		CE4F05042184AC9200064FB2 /* MainViewRepositoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4F05022184AC9200064FB2 /* MainViewRepositoryCell.xib */; };
+		CE4F05062184B63700064FB2 /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F05052184B63700064FB2 /* Foundation+Extension.swift */; };
+		CE4F05082184B66C00064FB2 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F05072184B66C00064FB2 /* UIKit+Extension.swift */; };
+		CE4F050A2184BEC000064FB2 /* MainViewRepositoryDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F05092184BEC000064FB2 /* MainViewRepositoryDecorator.swift */; };
 		CE93C4A52184431F004361E1 /* API.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93C4A32184431F004361E1 /* API.graphql.swift */; };
 		CE93C4A821844357004361E1 /* Types.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93C4A721844357004361E1 /* Types.graphql.swift */; };
 		CE93C4AD218444DC004361E1 /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE93C4AB21844424004361E1 /* Apollo.framework */; };
@@ -44,6 +49,11 @@
 		CE4F04FA218468AF00064FB2 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		CE4F04FD21846A8B00064FB2 /* GraphClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphClient.swift; sourceTree = "<group>"; };
 		CE4F04FF21846B8900064FB2 /* GraphCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCodec.swift; sourceTree = "<group>"; };
+		CE4F05012184AC9200064FB2 /* MainViewRepositoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewRepositoryCell.swift; sourceTree = "<group>"; };
+		CE4F05022184AC9200064FB2 /* MainViewRepositoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewRepositoryCell.xib; sourceTree = "<group>"; };
+		CE4F05052184B63700064FB2 /* Foundation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
+		CE4F05072184B66C00064FB2 /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
+		CE4F05092184BEC000064FB2 /* MainViewRepositoryDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewRepositoryDecorator.swift; sourceTree = "<group>"; };
 		CE93C4A32184431F004361E1 /* API.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.graphql.swift; sourceTree = "<group>"; };
 		CE93C4A721844357004361E1 /* Types.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.graphql.swift; sourceTree = "<group>"; };
 		CE93C4AB21844424004361E1 /* Apollo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Apollo.framework; path = Carthage/Build/iOS/Apollo.framework; sourceTree = "<group>"; };
@@ -97,6 +107,10 @@
 				CEDDC7932184358F000F104B /* MainViewController.storyboard */,
 				CEDDC7912184358F000F104B /* MainViewController.swift */,
 				CE4F04F821845F5300064FB2 /* MainViewModel.swift */,
+				CE4F05012184AC9200064FB2 /* MainViewRepositoryCell.swift */,
+				CE4F05022184AC9200064FB2 /* MainViewRepositoryCell.xib */,
+				CE4F05092184BEC000064FB2 /* MainViewRepositoryDecorator.swift */,
+				CE4F05072184B66C00064FB2 /* UIKit+Extension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +133,7 @@
 				CE93C4B7218450AA004361E1 /* Language.swift */,
 				CE93C4B9218450B0004361E1 /* Repository.swift */,
 				CE4F04F4218453CA00064FB2 /* Mutable.swift */,
+				CE4F05052184B63700064FB2 /* Foundation+Extension.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -264,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4F05042184AC9200064FB2 /* MainViewRepositoryCell.xib in Resources */,
 				CEDDC79A2184358F000F104B /* LaunchScreen.storyboard in Resources */,
 				CEDDC7972184358F000F104B /* Assets.xcassets in Resources */,
 				CEDDC7952184358F000F104B /* MainViewController.storyboard in Resources */,
@@ -311,14 +327,18 @@
 				CE4F04F5218453CA00064FB2 /* Mutable.swift in Sources */,
 				CE93C4A821844357004361E1 /* Types.graphql.swift in Sources */,
 				CEDDC7922184358F000F104B /* MainViewController.swift in Sources */,
+				CE4F05082184B66C00064FB2 /* UIKit+Extension.swift in Sources */,
 				CE93C4A52184431F004361E1 /* API.graphql.swift in Sources */,
 				CE93C4B8218450AA004361E1 /* Language.swift in Sources */,
 				CE93C4B6218450A3004361E1 /* Owner.swift in Sources */,
 				CEDDC7902184358E000F104B /* AppDelegate.swift in Sources */,
 				CE4F04F921845F5300064FB2 /* MainViewModel.swift in Sources */,
 				CE4F04FE21846A8B00064FB2 /* GraphClient.swift in Sources */,
+				CE4F05032184AC9200064FB2 /* MainViewRepositoryCell.swift in Sources */,
 				CE4F050021846B8900064FB2 /* GraphCodec.swift in Sources */,
+				CE4F050A2184BEC000064FB2 /* MainViewRepositoryDecorator.swift in Sources */,
 				CE4F04FB218468AF00064FB2 /* Environment.swift in Sources */,
+				CE4F05062184B63700064FB2 /* Foundation+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
