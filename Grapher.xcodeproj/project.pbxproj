@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4F04F5218453CA00064FB2 /* Mutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F04F4218453CA00064FB2 /* Mutable.swift */; };
+		CE4F04F72184563900064FB2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4F04F62184563900064FB2 /* RxSwift.framework */; };
+		CE4F04F921845F5300064FB2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F04F821845F5300064FB2 /* MainViewModel.swift */; };
+		CE4F04FB218468AF00064FB2 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F04FA218468AF00064FB2 /* Environment.swift */; };
+		CE4F04FE21846A8B00064FB2 /* GraphClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F04FD21846A8B00064FB2 /* GraphClient.swift */; };
+		CE4F050021846B8900064FB2 /* GraphCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F04FF21846B8900064FB2 /* GraphCodec.swift */; };
+		CE93C4A52184431F004361E1 /* API.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93C4A32184431F004361E1 /* API.graphql.swift */; };
+		CE93C4A821844357004361E1 /* Types.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93C4A721844357004361E1 /* Types.graphql.swift */; };
+		CE93C4AD218444DC004361E1 /* Apollo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE93C4AB21844424004361E1 /* Apollo.framework */; };
+		CE93C4B6218450A3004361E1 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93C4B5218450A3004361E1 /* Owner.swift */; };
+		CE93C4B8218450AA004361E1 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93C4B7218450AA004361E1 /* Language.swift */; };
+		CE93C4BA218450B0004361E1 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93C4B9218450B0004361E1 /* Repository.swift */; };
 		CEDDC7902184358E000F104B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDC78F2184358E000F104B /* AppDelegate.swift */; };
 		CEDDC7922184358F000F104B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDDC7912184358F000F104B /* MainViewController.swift */; };
 		CEDDC7952184358F000F104B /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDDC7932184358F000F104B /* MainViewController.storyboard */; };
@@ -26,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE4F04F4218453CA00064FB2 /* Mutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mutable.swift; sourceTree = "<group>"; };
+		CE4F04F62184563900064FB2 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		CE4F04F821845F5300064FB2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CE4F04FA218468AF00064FB2 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		CE4F04FD21846A8B00064FB2 /* GraphClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphClient.swift; sourceTree = "<group>"; };
+		CE4F04FF21846B8900064FB2 /* GraphCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCodec.swift; sourceTree = "<group>"; };
+		CE93C4A32184431F004361E1 /* API.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.graphql.swift; sourceTree = "<group>"; };
+		CE93C4A721844357004361E1 /* Types.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.graphql.swift; sourceTree = "<group>"; };
+		CE93C4AB21844424004361E1 /* Apollo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Apollo.framework; path = Carthage/Build/iOS/Apollo.framework; sourceTree = "<group>"; };
+		CE93C4B5218450A3004361E1 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
+		CE93C4B7218450AA004361E1 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		CE93C4B9218450B0004361E1 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		CEDDC78C2184358E000F104B /* Grapher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grapher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDDC78F2184358E000F104B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDDC7912184358F000F104B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE93C4AD218444DC004361E1 /* Apollo.framework in Frameworks */,
+				CE4F04F72184563900064FB2 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +82,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE93C4AA21844424004361E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4F04F62184563900064FB2 /* RxSwift.framework */,
+				CE93C4AB21844424004361E1 /* Apollo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE93C4B22184504D004361E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDDC7932184358F000F104B /* MainViewController.storyboard */,
+				CEDDC7912184358F000F104B /* MainViewController.swift */,
+				CE4F04F821845F5300064FB2 /* MainViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE93C4B321845054004361E1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE93C4A32184431F004361E1 /* API.graphql.swift */,
+				CE93C4A721844357004361E1 /* Types.graphql.swift */,
+				CE4F04FD21846A8B00064FB2 /* GraphClient.swift */,
+				CE4F04FF21846B8900064FB2 /* GraphCodec.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE93C4B421845062004361E1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				CE93C4B5218450A3004361E1 /* Owner.swift */,
+				CE93C4B7218450AA004361E1 /* Language.swift */,
+				CE93C4B9218450B0004361E1 /* Repository.swift */,
+				CE4F04F4218453CA00064FB2 /* Mutable.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		CEDDC7832184358E000F104B = {
 			isa = PBXGroup;
 			children = (
 				CEDDC78E2184358E000F104B /* Grapher */,
 				CEDDC7A32184358F000F104B /* GrapherTests */,
 				CEDDC78D2184358E000F104B /* Products */,
+				CE93C4AA21844424004361E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +164,12 @@
 		CEFF29AB21843F1200D3D132 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CEDDC7982184358F000F104B /* LaunchScreen.storyboard */,
 				CEDDC78F2184358E000F104B /* AppDelegate.swift */,
-				CEDDC7912184358F000F104B /* MainViewController.swift */,
-				CEDDC7932184358F000F104B /* MainViewController.storyboard */,
+				CE4F04FA218468AF00064FB2 /* Environment.swift */,
+				CEDDC7982184358F000F104B /* LaunchScreen.storyboard */,
+				CE93C4B22184504D004361E1 /* View */,
+				CE93C4B321845054004361E1 /* Network */,
+				CE93C4B421845062004361E1 /* Domain */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -122,6 +192,7 @@
 				CEDDC7882184358E000F104B /* Sources */,
 				CEDDC7892184358E000F104B /* Frameworks */,
 				CEDDC78A2184358E000F104B /* Resources */,
+				CE93C4A92184436C004361E1 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,13 +279,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE93C4A92184436C004361E1 /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Apollo.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEDDC7882184358E000F104B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE93C4BA218450B0004361E1 /* Repository.swift in Sources */,
+				CE4F04F5218453CA00064FB2 /* Mutable.swift in Sources */,
+				CE93C4A821844357004361E1 /* Types.graphql.swift in Sources */,
 				CEDDC7922184358F000F104B /* MainViewController.swift in Sources */,
+				CE93C4A52184431F004361E1 /* API.graphql.swift in Sources */,
+				CE93C4B8218450AA004361E1 /* Language.swift in Sources */,
+				CE93C4B6218450A3004361E1 /* Owner.swift in Sources */,
 				CEDDC7902184358E000F104B /* AppDelegate.swift in Sources */,
+				CE4F04F921845F5300064FB2 /* MainViewModel.swift in Sources */,
+				CE4F04FE21846A8B00064FB2 /* GraphClient.swift in Sources */,
+				CE4F050021846B8900064FB2 /* GraphCodec.swift in Sources */,
+				CE4F04FB218468AF00064FB2 /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +482,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U35RPT6P3D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Grapher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -396,6 +504,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U35RPT6P3D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Grapher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
